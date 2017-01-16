@@ -20,6 +20,11 @@ public class DAO {
     private BasketEntityDAO basketEntityDAO;
     private MainInfoViewEntityDAO mainInfoViewEntityDAO;
 
+    /**
+     * Method returns exemplar of dao
+     *
+     * @return object DAO
+     */
     public static DAO getDAO() {
         if (dao == null) {
             synchronized (DAO.class) {
