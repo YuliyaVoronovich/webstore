@@ -6,6 +6,12 @@ import javax.servlet.http.HttpServletRequest;
 
 import static controller.FormHelper.methodBodyDescription;
 
+/**
+ * Class implements the content and functionality of the page mobile description
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class CommandDescriptionMobile implements ActionCommand{
 
     @Override

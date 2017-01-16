@@ -9,6 +9,12 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class implements the content and functionality of the page orders
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class CommandBasket implements ActionCommand {
 
     @Override

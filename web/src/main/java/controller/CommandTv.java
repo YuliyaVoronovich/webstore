@@ -9,6 +9,12 @@ import java.util.List;
 
 import static controller.FormHelper.methodBodyGood;
 
+/**
+ * Class implements the content and functionality of the page tv
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class CommandTv implements ActionCommand {
 
     @Override

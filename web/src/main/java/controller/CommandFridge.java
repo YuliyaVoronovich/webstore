@@ -9,6 +9,12 @@ import java.util.List;
 
 import static controller.FormHelper.methodBodyGood;
 
+/**
+ * Class implements the content and functionality of the page fridge
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 class CommandFridge implements ActionCommand {
 
     @Override

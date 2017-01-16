@@ -1,5 +1,11 @@
 package controller;
 
+/**
+ * Enum contains actions of the app
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 enum Action {
     REG("/registration.jsp", "/login.jsp", new CommandReg()),
     LOGIN("/login.jsp", "/index.jsp", new CommandLogin()),

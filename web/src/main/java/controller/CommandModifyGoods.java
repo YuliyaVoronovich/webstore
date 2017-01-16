@@ -9,6 +9,12 @@ import com.voronovich.service.Service;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
+/**
+ * Class implements the content and functionality of the page modify goods
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class CommandModifyGoods implements ActionCommand {
 
     @Override

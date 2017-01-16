@@ -9,7 +9,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.ResourceBundle;
 
-class CommandLogin implements ActionCommand {
+/**
+ * Class implements the content and functionality of the page login
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
+public class CommandLogin implements ActionCommand {
 
     @Override
     public String execute(HttpServletRequest request) {

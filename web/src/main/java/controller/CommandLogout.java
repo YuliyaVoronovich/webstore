@@ -2,6 +2,12 @@ package controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * Class implements the content and functionality of the page logout
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class CommandLogout implements ActionCommand {
 
     @Override
