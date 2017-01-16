@@ -6,6 +6,12 @@ import com.voronovich.service.IService;
 
 import java.util.List;
 
+/**
+ * Class implements part of the Service layer - RoleService
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class RoleService implements IService<RoleEntity> {
 
     DAO dao = DAO.getDAO();

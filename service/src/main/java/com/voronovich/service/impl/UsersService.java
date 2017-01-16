@@ -7,6 +7,12 @@ import com.voronovich.service.IUsersService;
 
 import java.util.List;
 
+/**
+ * Class implements part of the Service layer - UsersService
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class UsersService implements IService<UsersEntity>,IUsersService {
 
     DAO dao = DAO.getDAO();

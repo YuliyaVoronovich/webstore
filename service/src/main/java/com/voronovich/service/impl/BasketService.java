@@ -7,6 +7,12 @@ import com.voronovich.service.IService;
 
 import java.util.List;
 
+/**
+ * Class implements part of the Service layer - BasketService
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class BasketService implements IService<BasketEntity>,IBasketService{
 
     DAO dao = DAO.getDAO();

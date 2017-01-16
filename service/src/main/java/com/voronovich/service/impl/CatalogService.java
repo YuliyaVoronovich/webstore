@@ -6,6 +6,12 @@ import com.voronovich.service.IService;
 
 import java.util.List;
 
+/**
+ * Class implements part of the Service layer - CatalogService
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class CatalogService implements IService<CatalogEntity> {
 
     DAO dao = DAO.getDAO();

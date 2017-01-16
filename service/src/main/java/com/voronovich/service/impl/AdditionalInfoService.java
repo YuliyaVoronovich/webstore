@@ -6,6 +6,12 @@ import com.voronovich.service.IService;
 
 import java.util.List;
 
+/**
+ * Class implements part of the Service layer - AdditionalInfoService
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class AdditionalInfoService implements IService<AdditionalInfoEntity>{
 
     DAO dao = DAO.getDAO();
