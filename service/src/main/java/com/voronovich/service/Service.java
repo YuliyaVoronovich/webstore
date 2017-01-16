@@ -2,6 +2,12 @@ package com.voronovich.service;
 
 import com.voronovich.service.impl.*;
 
+/**
+ * Class implements singleton pattern for getting necessary service
+ *
+ * @author Dmitry V
+ * @version 1.0
+ */
 public class Service {
 
     private static Service service;
@@ -14,6 +20,11 @@ public class Service {
     private AdditionalInfoService additionalInfoService;
     private BasketService basketService;
 
+    /**
+     * Method returns exemplar of service
+     *
+     * @return object DAO
+     */
     public static Service getService() {
         if (service == null) {
             synchronized (Service.class) {

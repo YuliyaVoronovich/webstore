@@ -43,6 +43,13 @@ public class RoleServiceTest {
 
     @Test
     public void cTest() {
+        RoleEntity roleEntity = service.getRoleService().get(1);
+        String name = roleEntity.getName();
+        Assert.assertEquals("Not read", "user", name);
+    }
+
+    @Test
+    public void dTest() {
         List<RoleEntity> listBefore = service.getRoleService().get();
         int before = listBefore.size();
         RoleEntity roleEntity = listBefore.get(before - 1);

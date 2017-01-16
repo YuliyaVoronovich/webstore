@@ -63,6 +63,13 @@ public class UsersServiceTest {
 
     @Test
     public void fTest() {
+        UsersEntity usersEntity = service.getUserService().get(10);
+        String name = usersEntity.getName();
+        Assert.assertEquals("Not read", "Дмитрий", name);
+    }
+
+    @Test
+    public void gTest() {
         List<UsersEntity> listBefore = service.getUserService().get();
         int before = listBefore.size();
         UsersEntity usersEntity = listBefore.get(before - 1);
